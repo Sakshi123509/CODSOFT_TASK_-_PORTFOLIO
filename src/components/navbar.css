@@ -1,0 +1,128 @@
+/* Default navbar style (will inherit background based on mode) */
+.navbar {
+  top: 0;
+  position: sticky;
+  position: sticky;
+  z-index: 1000;
+  height: 100px;
+  padding: 20px 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Light Mode (white body) = NAVBAR is blue gradient */
+.light-mode .navbar {
+  background: linear-gradient(to left, #191d2d, #38358c);
+  color: white;
+}
+
+/* Dark Mode (blue body) = NAVBAR is white */
+.dark-mode .navbar {
+  background-color: white;
+  color: black;
+}
+
+.name {
+  font-size: 39px;
+  font-family: "Great Vibes", cursive;
+}
+.dark-mode .name {
+  color: #1c1f66;
+}
+.light-mode .name {
+  color: white;
+}
+
+.navcontent {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navcontent ul {
+  display: flex;
+  gap: 3rem;
+  font-size: 23px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navcontent ul a {
+  position: relative;
+  text-decoration: none;
+  color: inherit; /* Inherit from parent based on mode */
+  font-weight: 600;
+}
+
+.navcontent ul a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  width: 0;
+  background-color: #6c2bd9;
+  transition: width 0.3s ease-in-out;
+}
+
+.navcontent ul a:hover::after {
+  width: 100%;
+}
+.hide {
+  display: none;
+}
+/* Responsive Navbar */
+@media (max-width: 690px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+  }
+
+  .navcontent {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .navcontent ul {
+    flex-direction: column;
+    gap: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navcontent {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navcontent.active {
+    display: flex;
+  }
+
+  .navcontent ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .theme-toggle-btn {
+    margin-top: 15px;
+  }
+}

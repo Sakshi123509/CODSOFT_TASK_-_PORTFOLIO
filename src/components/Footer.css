@@ -1,0 +1,53 @@
+.footer {
+  background-color: #2e026d;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+.light-mode .footer{
+  background-color: #fff;
+  color:  #2e026d;;
+}
+.footer-contact {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.light-mode .footer a{
+  color:  #2e026d;
+}
+.footer a:hover {
+  text-decoration: underline;
+  color: #00d8ff;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.social-links a {
+  transition: transform 0.2s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+}
+
+.footer p {
+  font-size: 14px;
+  color: #cccccc;
+}
+.light-mode .footer p{
+  color:  #2e026d;
+}

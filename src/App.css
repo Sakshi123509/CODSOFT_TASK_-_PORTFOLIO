@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 200vh;
+  background: linear-gradient(to left, #191d2d, #38358c);
+  font-family: "Montserrat";
+}
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* 🌙 Dark Mode (Default) */
+.dark-mode {
+  background: linear-gradient(to left, #191d2d, #38358c); /* Body bg */
+  color: white;
+}
+
+.dark-mode .navbar {
+  background-color: white;
+  color: black;
+}
+
+/* ☀️ Light Mode (After Toggle) */
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.light-mode .navbar {
+  background: linear-gradient(to left, #191d2d, #38358c); /* Navbar bg */
+  color: white;
+}
