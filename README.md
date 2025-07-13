@@ -1,7 +1,7 @@
 # 💼 Sakshi Kadu's Portfolio Website
 
 This is my **personal portfolio website** built with **React.js**. It showcases my projects, internships, skills, and includes contact information.
-🔗 **Live Demo**: [Visit Portfolio](https://sakshi123509.github.io/CODSOFT_TASK_-_PORTFOLIO)
+🔗 **Live Demo**: [Visit Portfolio](https://sakshi123509.github.io/CODSOFT_TASK_-_PORTFOLIO/)
 
 
 ## 🚀 Features
@@ -46,14 +46,14 @@ npm install
 npm start
 
 
-#DEPLOYMENT
+##DEPLOYMENT
 npm run build       # Builds for production
 npm run deploy      # Deploys to GitHub Pages
 
-#📄 License
+##📄 License
 This project is open-source and available under the MIT License.
 
-🙋‍♀️ Connect With Me
+##🙋‍♀️ Connect With Me
 
 💼 LinkedIn
 📧 Email: kadusakshi945@gmail.com
