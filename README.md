@@ -2,10 +2,9 @@
 
 This is my personal portfolio website built with **React.js**. It showcases my **projects**, **internships**, **skills**, and includes **contact information**.
 
-🔗 **[Live Demo: Visit Portfolio](https://sakshi123509.github.io/CODSOFT_TASK_-_PORTFOLIO/)**  
-_(Click the link above to view the deployed site)_
+🔗 **[Live Demo: Visit Portfolio](https://sakshi123509.github.io/CODSOFT_TASK_-_PORTFOLIO/)**
 
-
+---
 
 ## 🚀 Features
 
@@ -13,17 +12,20 @@ _(Click the link above to view the deployed site)_
 - Projects with images and links  
 - Animated sections using GSAP  
 - Skills, internships, and contact details  
-- Social links and resume included
+- Social links and downloadable resume  
+
 
 ## 🛠️ Tech Stack
 
-- React.js (via Create React App)
-- HTML5, CSS3, JavaScript (ES6)
-- Git & GitHub Pages
-- GSAP (GreenSock Animations)
-- Bootstrap (for UI components)
+- React.js (via Create React App)  
+- HTML5, CSS3, JavaScript (ES6)  
+- Git & GitHub Pages  
+- GSAP (GreenSock Animations)  
+- Bootstrap (for UI components)  
+
 
 ## 🧾 Folder Structure
+
 src/
 ├── assets/ # Images, icons
 ├── components/ # Reusable UI components
