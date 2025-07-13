@@ -1,7 +1,10 @@
-# 💼 Sakshi Kadu's Portfolio Website
+# 💼 Sakshi Kadu’s Portfolio Website
 
-This is my **personal portfolio website** built with **React.js**. It showcases my projects, internships, skills, and includes contact information.
-🔗 **Live Demo**: [Visit Portfolio](https://sakshi123509.github.io/CODSOFT_TASK_-_PORTFOLIO)
+This is my personal portfolio website built with **React.js**. It showcases my **projects**, **internships**, **skills**, and includes **contact information**.
+
+🔗 **[Live Demo: Visit Portfolio](https://sakshi123509.github.io/CODSOFT_TASK_-_PORTFOLIO/)**  
+_(Click the link above to view the deployed site)_
+
 
 
 ## 🚀 Features
