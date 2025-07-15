@@ -15,8 +15,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-
-
 export default function App() {
   const [isLightMode, setIsLightMode] = useState(false); // dark mode default
 
@@ -27,9 +25,9 @@ export default function App() {
 
   return (
     <div className={isLightMode ? "light-mode" : "dark-mode"}>
-      <BrowserRouter>
+      <BrowserRouter basename="/CODSOFT_TASK_-_PORTFOLIO">
         <Navbar toggleTheme={toggleTheme} isLightMode={isLightMode} />
-       
+
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />
@@ -39,9 +37,10 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/thankyou" element={<ThankYou />} />
         </Routes>
-        
-        <Footer />
+
       </BrowserRouter>
+      <Footer />
     </div>
   );
+
 }

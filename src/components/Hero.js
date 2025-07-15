@@ -5,7 +5,6 @@ import About from "./about";
 import Skills from "./skills.jsx";
 import Projects from "./projects.jsx";
 import Contact from "./Contact.js";
-import React from "react";
 import gsap from 'gsap';
 import { useRef } from "react";
 import { useGSAP } from '@gsap/react';
