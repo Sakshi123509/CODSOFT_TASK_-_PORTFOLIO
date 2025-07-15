@@ -35,7 +35,13 @@
 .light-mode .name {
   color: white;
 }
-
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: black;
+  transition: color 0.3s ease;
+}
 .navcontent {
   display: flex;
   align-items: center;
@@ -97,6 +103,7 @@
 @media (max-width: 768px) {
   .hamburger {
     display: block;
+ 
   }
 
   .navcontent {
@@ -120,6 +127,9 @@
   .navcontent ul {
     flex-direction: column;
     gap: 15px;
+  }
+  .navbar li{
+    color: #1c1f66;
   }
 
   .theme-toggle-btn {

@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Sakshi123509.github.io/CODSOFT_TASK_-_PORTFOLIO",
+ "homepage": "https://sakshi123509.github.io/CODSOFT_TASK_-_PORTFOLIO",
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "@testing-library/dom": "^10.4.0",

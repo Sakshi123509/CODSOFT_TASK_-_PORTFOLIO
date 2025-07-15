@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CODSOFT_TASK_-_PORTFOLIO/static/css/main.cc4f25ed.css",
-    "main.js": "/CODSOFT_TASK_-_PORTFOLIO/static/js/main.e3fade5d.js",
+    "main.css": "/CODSOFT_TASK_-_PORTFOLIO/static/css/main.cea5e195.css",
+    "main.js": "/CODSOFT_TASK_-_PORTFOLIO/static/js/main.c4cabe8f.js",
     "static/js/453.ad7768ec.chunk.js": "/CODSOFT_TASK_-_PORTFOLIO/static/js/453.ad7768ec.chunk.js",
     "static/media/resume.pdf": "/CODSOFT_TASK_-_PORTFOLIO/static/media/resume.e95ca2d7545ac9d98aa5.pdf",
     "static/media/pro.png": "/CODSOFT_TASK_-_PORTFOLIO/static/media/pro.1b57b4382fa4cd021a77.png",
@@ -17,12 +17,12 @@
     "index.html": "/CODSOFT_TASK_-_PORTFOLIO/index.html",
     "static/media/react.svg": "/CODSOFT_TASK_-_PORTFOLIO/static/media/react.011e7c1df86b45faf46cd92fe47d6bbd.svg",
     "static/media/js.svg": "/CODSOFT_TASK_-_PORTFOLIO/static/media/js.b879f838faf1cb951d1c2230fd933a39.svg",
-    "main.cc4f25ed.css.map": "/CODSOFT_TASK_-_PORTFOLIO/static/css/main.cc4f25ed.css.map",
-    "main.e3fade5d.js.map": "/CODSOFT_TASK_-_PORTFOLIO/static/js/main.e3fade5d.js.map",
+    "main.cea5e195.css.map": "/CODSOFT_TASK_-_PORTFOLIO/static/css/main.cea5e195.css.map",
+    "main.c4cabe8f.js.map": "/CODSOFT_TASK_-_PORTFOLIO/static/js/main.c4cabe8f.js.map",
     "453.ad7768ec.chunk.js.map": "/CODSOFT_TASK_-_PORTFOLIO/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc4f25ed.css",
-    "static/js/main.e3fade5d.js"
+    "static/css/main.cea5e195.css",
+    "static/js/main.c4cabe8f.js"
   ]
 }

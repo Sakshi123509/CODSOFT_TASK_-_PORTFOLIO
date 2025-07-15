@@ -98,3 +98,25 @@
     margin: 20px 0;
   }
 }
+@media (max-width: 768px) {
+  .internship-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .internship-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .internship-logo img {
+    width: 70%;
+    max-width: 220px;
+  }
+
+  .internship-text ul {
+    font-size: 1.1rem;
+  }
+}

@@ -25,8 +25,13 @@ export default function Navbar({ toggleTheme, isLightMode }) {
         <h4>Sakshi Kadu</h4>
       </div>
 
-      <div className="hamburger hide" onClick={toggleMenu}>
-        {menuOpen ? "❌" : "☰"}
+      <div
+        className={`hamburger hide ${
+          isLightMode ? "light-hamburger" : "dark-hamburger"
+        }`}
+        onClick={toggleMenu}
+      >
+        {menuOpen ? "❌" : `☰`}
       </div>
 
       <div className={`navcontent ${menuOpen ? "active" : ""}`}>
