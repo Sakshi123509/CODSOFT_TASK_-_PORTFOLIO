@@ -1,4 +1,4 @@
-# 🌟 CODSOFT_TASK_-_PORTFOLIO
+# 🌟 PERSONAL_PORTFOLIO
 
 💼 **Sakshi Kadu’s Portfolio Website**  
 This is my personal portfolio website built with **React.js**. It showcases my **projects**, **internships**, **skills**, and includes **contact information**.
